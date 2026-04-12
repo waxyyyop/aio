@@ -1,0 +1,27 @@
+{
+  "name": "all-in-one-discord-bot",
+  "version": "0.1.0",
+  "description": "Premium Discord bot with slash commands, premium guild system, MongoDB, music, and custom branding.",
+  "main": "src/index.js",
+  "keywords": ["discord", "discord.js", "bot", "music", "premium", "commands", "mongodb"],
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.0.0",
+    "@discordjs/voice": "^0.16.0",
+    "play-dl": "^1.11.7",
+    "mongoose": "^7.6.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
